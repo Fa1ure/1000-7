@@ -1,0 +1,8 @@
+import time 
+i = int(input('1000-7=?'))
+i = 986
+while i > 0:
+        c = i + 7
+        print(c,'- 7=?...',i)
+        time.sleep(0.03)
+        i = i - 7
